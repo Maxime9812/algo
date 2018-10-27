@@ -268,7 +268,6 @@ function play(x, y) {
 	if (minesweeper[y][x] == count) {
 		dessinerNbMine(x,y);
 	}
-	// verif win
 	// Ne rien modifier au dessous de ce commentaire
 	}
 		is_win();
