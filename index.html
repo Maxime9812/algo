@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+		<title>Coding Factory - Algorithmique - Morpion</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="fr" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header><p>Coding Factory - Algorithmique - Morpion</p></header>
+		<section id="morpion">
+			<section>
+				<article onclick="play(0,0)"></article>
+				<article onclick="play(1,0)"></article>
+				<article onclick="play(2,0)"></article>
+			</section>
+			<section class="marginT">
+				<article onclick="play(0,1)"></article>
+				<article onclick="play(1,1)"></article>
+				<article onclick="play(2,1)"></article>
+			</section>
+			<section class="marginT">
+				<article onclick="play(0,2)"></article>
+				<article onclick="play(1,2)"></article>
+				<article onclick="play(2,2)"></article>
+			</section>
+			<section id='infos'>
+				<article>Au tour de X</article>
+				<button onclick="restart()">Recommencer</button>
+			</section>
+		</section>
+		<script src="./morpion.js"></script>
+	</body>
+</html>

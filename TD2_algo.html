@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1561.6">
+  <style type="text/css">
+  </style>
+</head>
+<body>
+	<script>
+ 	console.log('Hello Wolrd !')
+	var X = 8;
+	if (X < 10) {
+		console.log(X - 5);
+	}
+	var X = 0;
+	while (X < 10) {
+		console.log(X)
+		X++
+	}
+	function calcul (param1) {
+		return param1*param1
+	}
+	console.log (calcul(42))
+	console.log (calcul(2))
+
+	var object = {table:[1,2,3]}
+
+  var Total = 1;
+  function fonctionNombrePremier(valeur){
+    var i =2;
+    var prime = true;
+
+    while (i < valeur) {
+      if (valeur%i == 0 ){
+        prime = false;
+        break;
+      }
+      i++;
+    }
+    return prime;
+  }
+  
+
+var a = 2;
+while ( a <= 31) {
+  var f = fonctionNombrePremier(a);
+  if (f== true) {
+    console.log(a,'est premier')
+  }
+  if (f== false) {
+    Total+=a
+  }
+   a++
+ }
+ console.log(Total); 
+	</script>
+</body>
+</html>
